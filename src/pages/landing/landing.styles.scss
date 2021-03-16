@@ -1,0 +1,18 @@
+.parent-container {
+    margin:0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0FAFB;
+
+    .header {
+        height: 20vh;
+        width: 100%;
+        background: url('../../images/bg-header-desktop.svg');
+        background-size: cover;
+        background-repeat: repeat-x;
+        background-position: top;
+    }
+}
