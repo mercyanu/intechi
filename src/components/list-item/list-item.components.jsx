@@ -22,14 +22,22 @@ const ListItem = ({job}) => {
                 <div className='role'>{position}</div>
                 <div className='info-3'>
                     <span>{postedAt}</span> |
-                    <span>{contract}</span> |
-                    <span>{location}</span>
+                    <span> {contract}</span> |
+                    <span> {location}</span>
                 </div>
             </div>
         </div>
         <div className='info-4'>
             <div><span><p>{role}</p></span></div>
             <div><span><p>{level}</p></span></div>
+            {
+                languages.map(language => (
+                    <div><span><p>{language}</p></span></div>))
+            }
+            {
+                tools.map(tool => (
+                    <div><span><p>{tool}</p></span></div>))
+            }
         </div>
     </div>
     )
