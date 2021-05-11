@@ -4,8 +4,15 @@
     width: 60vw;
     margin: 90px 0;
 
-    h2 {
-        margin: 0;
-        }
+    .heading {
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            margin: 0;
+            }
+    }
+
+   
     
 }
